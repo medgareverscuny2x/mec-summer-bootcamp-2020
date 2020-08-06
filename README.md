@@ -52,3 +52,21 @@ Daily Schedule (Subject to Change)
 | Class Session 13: | TBA                          | 08/24/2020 |
 | Class Session 14: | TBA                          | 08/25/2020 |
 | Class Session 15: | Demo Day and Exit Assessment | 08/26/2020 |
+
+---
+
+## Curriculum
+
+### Class Session 1: Orientation, Registration, Tools for Class, GitHub (08/06/2020)
+
+Slides:
+
+- [Git and GitHub Slides - Part I](https://docs.google.com/presentation/d/12tgnThkuKGHpbxZEv2RTWOTLpViL1O3hcHEGNJv9Wzo/edit?usp=sharing)
+- [Git and GitHub Slides - Part II](https://docs.google.com/presentation/d/1Qkz1Z83P2b2EUFDrMN8L1X7BcMwZzzkSqCKCI8INH78/edit?usp=sharing)
+<!-- - [Collaboration Workshop Assignment](https://docs.google.com/document/d/1Yp10nGa09vAWzIlCxmkayuEf2RhKN0UhakKl_Zgplak) -->
+
+Resources:
+
+- [Git Codecademy Tutorial](https://www.codecademy.com/learn/learn-git)
+- [Writing good commit messages](https://medium.com/compass-true-north/writing-good-commit-messages-fc33af9d6321)
+- [Advanced Git Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
