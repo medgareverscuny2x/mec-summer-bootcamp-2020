@@ -46,7 +46,7 @@ CSS represents colors in many ways:
 
 ## CSS Box Model
 
-![Box model example](boxmodel.png)
+![Box model example](https://i.imgur.com/q5gFicu.png)
 
 - `border`: Contains the element content
 - `margin`: Spacing outside border
@@ -75,7 +75,44 @@ Examples:
 - See all the CSS affecting a particular element
 - View how page view changes based on device
 
+## Layout Models
+
+- Flexbox: Elements are assigned to boxes that can be assigned positions
+- CSS Grid: The page is split into a grid and elements are assigned positions
+
+## Mobile Responsiveness
+
+- **Mobile-first design**: Build simple for mobile and scale up for desktop
+- **Desktop-first design**: Build complex for desktop and scale down for mobile
+- Most people access the web on mobile devices so it’s best to follow a mobile-first design philosophy
+- Use Chrome DevTools to preview different display sizes
+
+## Media Queries
+
+Media queries allow you to change how the web page renders based on the parameters such as device type, screen resolution, and window size.
+
+- mobile
+- desktop
+- print
+- screenreader
+
 ## Resources
 
 - W3Schools CSS: https://www.w3schools.com/css/
 - Coolors: https://coolors.co/
+- MDN: Media Queries https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries
+- W3Schools Flexbox https://www.w3schools.com/css/css3_flexbox.asp
+- W3Schools CSS Grid https://www.w3schools.com/css/css_grid.asp
+
+## Activities
+
+Web Page Styling
+
+- Apply styling to the web page you created earlier.
+- Experiment but keep in mind that your site should follow modern conventions.
+- **Bonus**: Create a basic navigation menu and style it.
+
+Exercises to practice each model:
+
+- Flexbox Froggy https://flexboxfroggy.com/
+- Grid Garden https://cssgridgarden.com/
