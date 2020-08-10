@@ -77,8 +77,9 @@ Resources:
 
 Slides:
 
+- [HTML](resources/html.md)
+- [CSS](resources/css.md)
 - [JavaScript! slide deck](https://drive.google.com/file/d/1JL2pjlW0np5sxY8uKLQdU_W8vd3PPXdM/view?usp=sharing)
-
 - [More JavaScript! slide deck](https://drive.google.com/file/d/1RAYPYLNmtDRqLy1bBFuDxpqsiOnYOpRg/view?usp=sharing)
 
 Resources:
