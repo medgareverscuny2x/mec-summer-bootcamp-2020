@@ -17,6 +17,7 @@ array.forEach((i) => console.log(i));
 const appendListItemToList = (list, data) => {
   const listItem = document.createElement("li");
   listItem.innerHTML = `${data.title}`;
+  if (data.completed === true) listItem.classList.add("completed");
   list.appendChild(listItem);
 };
 
@@ -30,7 +31,10 @@ axios
   .get("https://jsonplaceholder.typicode.com/todos?userId=1")
   .then((response) => {
     const data = response.data;
-    data.forEach((data) => appendListItemToList(todoList, data));
+    return data;
+  })
+  .then((todo) => {
+    todo.forEach((todo) => appendListItemToList(todoList, todo));
   })
   .catch((error) => console.log(error));
 
@@ -38,3 +42,32 @@ axios
 // a get request will be sent to grab user 1's todo list items
 // a listItem node will be created for each todo in the response
 // each listItem node will be appended to the todo-list on the page
+
+// console.log("One");
+// setTimeout(() => console.log("Two"), 10);
+// console.log("Three");
+
+// let result;
+// setTimeout(() => {
+//   result = "hello";
+// }, 0);
+// console.log(result);
+
+// const result = setTimeout(() => {
+//   return "hello";
+// }, 0);
+// console.log(result);
+
+// setTimeout(function cb() {
+//   const result = "hello";
+//   console.log(result);
+// }, 0);
+
+// axios.get("https://jsonplaceholder.typicode.com/todos?userId=1").then(
+//   function onSuccess(data) {
+//     console.log(data);
+//   },
+//   function onError(err) {
+//     console.log(err);
+//   }
+// );
