@@ -9,8 +9,18 @@
   <body>
     <h1>AJAX and Promises</h1>
 
-    <h3>Todos</h3>
-    <ul id="todo-list"></ul>
+    <div class="todos">
+      <h3>Todos</h3>
+      <ul id="todo-list"></ul>
+
+      <form id="todo-form">
+        <div>
+          <label for="todo">New todo:</label>
+          <input type="text" name="todo" id="todo-input" />
+        </div>
+        <button type="submit">Create</button>
+      </form>
+    </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

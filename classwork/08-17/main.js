@@ -71,3 +71,31 @@ axios
 //     console.log(err);
 //   }
 // );
+
+const todoForm = document.getElementById("todo-form");
+const todoInput = document.getElementById("todo-input");
+
+const handleFormSubmit = (event) => {
+  event.preventDefault();
+  console.log(event);
+  //   grab the input value
+  let inputValue = todoInput.value;
+  //   send a POST request to API
+  // onSuccess: append the data to the list
+  // clear the input value
+  appendListItemToList(todoList, { title: inputValue });
+  axios
+    .post("https://jsonplaceholder.typicode.com/todos", {
+      title: inputValue,
+      userId: 1,
+    })
+    .then((response) => response.data)
+    .then((todo) => {
+      console.log(todo);
+      //   appendListItemToList(todoList, todo);
+    })
+    .catch((err) => console.log(err));
+  inputValue = "";
+};
+
+todoForm.addEventListener("submit", handleFormSubmit);
